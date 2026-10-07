@@ -16,8 +16,19 @@ README with the commands that were run, the output, and screenshots from the run
 | `Kubernetes Workloads/` | Pods, ReplicaSets, Deployments, rolling updates and rollback, DaemonSets |
 | `Kubernetes Services/` | The five Service types on Minikube: ClusterIP, NodePort, LoadBalancer, Headless, ExternalName |
 | `Kubernetes Ingress and Config/` | ConfigMaps, Secrets, and NGINX Ingress routing by host and path |
+| `Kubernetes Ingress and Config Advanced/` | ConfigMap/Secret mounts and live updates, Secrets in etcd and Git history, Ingress with and without a controller, TLS, five broken → fixed scenarios |
+| `Kubernetes Storage HPA and Probes/` | emptyDir, hostPath, PV/PVC, StorageClass, reclaim policy, HPA scale up/down, liveness/readiness/startup probes, mini project |
+| `Kubernetes Troubleshooting/` | Debug commands, 11 common failures (CrashLoopBackOff to OOMKilled), triage gauntlet, mini project |
+| `Helm/` | Helm commands, chart scaffolding, upgrade/rollback, dev/prod values mini project |
+| `CI-CD GitHub Actions/` | Lint, test and Docker build pipeline with GitHub Actions |
+| `DevSecOps Pipeline/` | Secret scanning, SAST, dependency and image scanning, hardened image |
+| `Terraform and AWS/` | IAM, EC2, S3, VPC, DynamoDB/RDS and the Terraform workflow (LocalStack) |
+| `Cloud Terraform Project/` | VPC, subnets, security group, EC2 with user data and S3 as one Terraform project |
+| `Monitoring Observability and GitOps/` | Prometheus, Alertmanager, Loki, Grafana, observability concepts, Argo CD GitOps |
+| `Final DevOps Project & Troubleshooting/` | Session 21: three-tier app run manually and with Docker Compose, API tests |
 
 Environment: macOS with Docker Desktop; Linux-only commands were run in Ubuntu 24.04 containers.
-The Kubernetes exercises run on a single-node Minikube cluster using the Docker driver.
+The Kubernetes exercises run on a single-node Minikube cluster using the Docker driver. The AWS
+exercises run against LocalStack, an AWS emulator in Docker.
 
 Submitted by **Parv Mehta** (Roll No. 24BCS10301).
